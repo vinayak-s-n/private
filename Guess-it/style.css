@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*  #393e46   #00adb5  #eeeeee */
+body {
+  max-height: 100vh;
+  min-width: 100vw;
+  background-color: #393e46;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lato";
+}
+
+.header {
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-color: #222831;
+  height: 10vh;
+  margin-bottom: 10px;
+  font-family: "Permanent Marker";
+  position: absolute;
+  top: 0px;
+}
+h4 {
+  text-align: center;
+}
+.main-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 11vh;
+  width: 300px;
+  height: 420px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+#myOut {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  box-shadow: 0px 0px 10px #222831;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0px;
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+}
+#high {
+  background: rgba(0, 132, 255, 0.637);
+}
+#low {
+  background: rgba(255, 72, 0, 0.781);
+}
+
+#yes,
+#add,
+#play-again {
+  background-color: rgba(130, 255, 47, 0.822);
+}
+#add,
+#play-again {
+  width: 80%;
+}
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: #222831;
+  padding: 20px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+}
+
+h5 {
+  font-size: 1rem;
+}
